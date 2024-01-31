@@ -1,0 +1,30 @@
+.header {
+    background-color: lightgreen;
+}
+
+.tres {
+    background-color: red;
+}
+
+.dos {
+    background-color: red;
+}
+
+@media (max-width: 575px) {
+    .header {
+        background-color: coral;
+    }
+    .dos {
+        background-color: aqua;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .header {
+        background-color: aqua;
+    }
+    .tres {
+        background-color: lightgreen;
+    }
+}
